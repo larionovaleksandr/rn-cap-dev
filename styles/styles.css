@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    
+}
+
+body {
+    font-size: 19px;
+}
+
+
+
+/* Floors  */
+section {
+    background-color: #E9ECF1;
+}
+
+.floor-steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.circle {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.floor-centred {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #E9ECF1;
+    padding: 25px 25px 0px 25px;
+}
+
+.navigation-ul {
+    display: flex;
+}
+
+
+
+
+
+/* Default tags */
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    margin-right: 30px;
+
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* Colors  */
+
+.font-dark-grey {
+    color: #303B4A;
+}
+
+.font-primary {
+    color: #2FBA66;
+}
+
+.background-primary {
+    background-color: #2FBA66;
+}
+
+
+
+
+
+
+/* Typography  */
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+p {
+    color: #979FA5;
+}
+
+
+button {
+    border: 0px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.calculator-title {
+    font-size: 180px;
+}
